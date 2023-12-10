@@ -171,16 +171,16 @@ export const Bio = {
       id: 0,
       img: "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSDa9NIkFHvZ1_Bxo1WQSHAzjDs4WBEtS4XMXLLFIUWcGmBH8DIilsW2Nn5_gXR9GW8e0w&usqp=CAU",
       school: "The Elegant Arts and Science College in Pirayiri, Kerala",
-      date: "june 2020 - Sep 2023",
-      grade: "8.71 CGPA",
-      desc: "I am currently pursuing a Bachelor's degree in Computer Science and Engineering at Kalinga Institute of Industrial Technology, Bhubaneswar. I have completed 4 semesters and have a CGPA of 8.71. I have taken courses in Data Structures, Algorithms, Object-Oriented Programming, Database Management Systems, Operating Systems, and Computer Networks, among others. I am also a member of the Google Developers Student Club (GDSC) at KIIT, where I am learning and working on exciting projects with a team of talented developers.",
-      degree: "Bachelor of Technology - BTech, Computer Science and Engineering",
+      date: "jun 2020 - April 2023",
+     
+      degree: "Bachelor of Science- Physics",
     },
     {
         id: 1,
         img: "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcT2rnMh2799hlnpm9JVOL6rR0iymTgj9bJkY4TnmWzhJlaxaP2z3YAV9sfnaLfB-l_jQGw&usqp=CAU",
         school: "Ghss Mankara Senior Secondary School",
-        date: "june 2018 - mar 2020",
+        date: "jun 2018 - mar 2020",
+        degree: " Biology",
         
         
       },
@@ -188,7 +188,7 @@ export const Bio = {
       id: 2,
       img: "https://upload.wikimedia.org/wikipedia/commons/thumb/7/77/Government_of_Kerala_Logo.png/1200px-Government_of_Kerala_Logo.png",
       school: "Ghss pathiripal  School",
-      date: "Apr 2019 - Apr 2025",
+      date: "jun 2014- mar 2018",
      
     },
    
