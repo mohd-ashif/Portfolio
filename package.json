@@ -1,5 +1,5 @@
 {
-  "homepage":"http://mohd-ashif.github.io/Portfolio",
+  "homepage":"http://mohd-ashif.github.io/Portfolio/",
   "name": "portfolio",
   "version": "0.1.0",
   "private": true,
@@ -27,7 +27,7 @@
   "scripts": {
     "dev": "vite",
     "predeploy":"npm run build",
-    "deploy":"gh-pages -d build",
+    "deploy":"gh-pages -d dist",
     "build": "vite build",
     "lint": "eslint src --ext js,jsx --report-unused-disable-directives --max-warnings 0",
     "preview": "vite preview"
