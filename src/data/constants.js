@@ -1,12 +1,18 @@
 export const Bio = {
-    name: "Rishav Chanda",
+    name: "Muhammed Ashif",
     roles: [
       "Full Stack Developer",
       "Front-end Develoeper",
       "Programmer",
     ],
     description:
-    "Hello! I'm Muhammed Ashif, a versatile Full Stack Developer with a passion for crafting seamless. I am on the lookout for a dynamic full-stack development role that not only challenges me but also enables me to leverage my skills to create a meaningful impact. I am particularly drawn to projects that harness cutting-edge technology to push boundaries and bring ideas to life. Let's collaborate and transform ideas into extraordinary digital solutions!",
+    "Hi, I'm Muhammed Ashif, a Full Stack Developer passionate about crafting seamless solutions. Seeking a dynamic job role to leverage my skills and create meaningful impact.I seek projects using cutting-edge tech to push boundaries and bring ideas to life. I thrive on challenging projects, especially those using cutting-edge technology. "
+
+
+
+
+
+    ,
     github: "https://www.linkedin.com/in/muhammed-ashif-ke/",
     resume:
       "https://drive.google.com/file/d/1XzT469l7pMmyK6E-dQxyoGSQ9VmsaBwC/view",
