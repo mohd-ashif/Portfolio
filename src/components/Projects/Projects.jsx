@@ -1,7 +1,7 @@
 import React, { useState } from 'react';
 import styled from 'styled-components';
-import { projects } from '../data/constants';
-import ProjectCard from '../components/Cards/ProjectCard';
+import { projects } from '../../data/constants';
+import ProjectCard from '../Cards/ProjectCard';
 
 export const Container = styled.div`
   background: linear-gradient(343.07deg, rgba(132, 59, 206, 0.06) 5.71%, rgba(132, 59, 206, 0) 64.83%);

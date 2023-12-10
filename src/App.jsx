@@ -7,8 +7,9 @@ import Navbar from './components/Navbar/Navbar';
 import Hero from './components/HeroSection/Hero';
 import Skills from './components/Skills/Skills';
 import Education from './components/Education/Education';
-import Experience from './Experience/Experience';
-import Projects from './Projects/Projects';
+import Experience from './components/Experience/Experience';
+import Projects from './components/Projects/Projects';
+import Contact from './components/Contact/Contact';
 
 const Body = styled.div`
   background-color: ${({ theme }) => theme.bg};
@@ -65,6 +66,7 @@ function App() {
           <Projects/>
             <Wrapper>
               <Education />
+              <Contact />
             </Wrapper>
         </Body>
       </Router>

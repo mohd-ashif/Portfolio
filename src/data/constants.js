@@ -8,16 +8,14 @@ export const Bio = {
     description:
     "Hi, I'm Muhammed Ashif, a Full Stack Developer passionate about crafting seamless solutions. Seeking a dynamic job role to leverage my skills and create meaningful impact.I seek projects using cutting-edge tech to push boundaries and bring ideas to life. I thrive on challenging projects, especially those using cutting-edge technology. "
 
-
-
-
-
     ,
     github: "https://www.linkedin.com/in/muhammed-ashif-ke/",
     resume:
       "https://drive.google.com/file/d/1XzT469l7pMmyK6E-dQxyoGSQ9VmsaBwC/view",
     linkedin: "https://www.linkedin.com/in/muhammed-ashif-ke/",
     twitter: "https://twitter.com/MohdAshifred",
+    insta: "https://www.instagram.com/aa6.if/?utm_source=qr&igshid=ZDc4ODBmNjlmNQ%3D%3D",
+    
    
   };
   

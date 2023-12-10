@@ -209,8 +209,7 @@ export const ResumeButton = styled.a`
         font-size: 18px;
     } 
 
-`;
-const Hero = () => {
+`;const Hero = () => {
   return (
     <div id='about'>
       <HeroContainer>
@@ -225,7 +224,7 @@ const Hero = () => {
               {Bio.name}
             </Title>
             <TextLoop>
-              I am a  <br />
+              I am a <br />
               <span style={{ color: 'violet' }}>
                 <TypeWriter 
                   options={{
@@ -237,7 +236,7 @@ const Hero = () => {
               </span>
             </TextLoop>
             <SubTitle>{Bio.description}</SubTitle>
-            <ResumeButton href={Bio.resume} target="display" >Check Resume </ResumeButton>
+            <ResumeButton href={Bio.resume} target="display">Check Resume</ResumeButton>
           </HeroLeftContainer>
           <HeroRightContainer>
             <Img src={HeroImg} alt="Hero" />
