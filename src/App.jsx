@@ -10,6 +10,7 @@ import Education from './components/Education/Education';
 import Experience from './components/Experience/Experience';
 import Projects from './components/Projects/Projects';
 import Contact from './components/Contact/Contact';
+import Footer from './components/Footer/Footer';
 
 const Body = styled.div`
   background-color: ${({ theme }) => theme.bg};
@@ -61,13 +62,14 @@ function App() {
           <Wrapper>
             <Skills />
             <Experience />
-          
           </Wrapper>
-          <Projects/>
-            <Wrapper>
-              <Education />
-              <Contact />
-            </Wrapper>
+          <Projects />
+          <Wrapper>
+            <Education />
+            <Contact />
+         
+          </Wrapper>
+        
         </Body>
       </Router>
     </ThemeProvider>

@@ -131,7 +131,7 @@ const Contact = () => {
     <Container>
       <Wrapper>
         <Title>Contact</Title>
-        <Desc>Feel free to reach out to me for any questions or opportunities!</Desc>
+        <Desc>Feel free to reach out to me for any questions </Desc>
         <ContactForm ref={form}>
           <ContactTitle>Email Me 🚀</ContactTitle>
           <ContactInput placeholder="Your Email" name="from_email" />
