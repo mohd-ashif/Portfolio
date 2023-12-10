@@ -149,7 +149,15 @@ export const Bio = {
       company: "Softroniics ",
       date: "July 2023 - Present",
       desc: "Developed and maintained a full-stack web application using the MERN stack.",
-      
+      skills: [
+        "ReactJS",
+        "Redux",
+        "NodeJs",
+        "Material UI",
+        "HTML",
+        "CSS",
+        "JavaScript",
+      ],
       doc: "https://media.licdn.com/dms/image/D4D2DAQFlp60ZqHuaFQ/profile-treasury-image-shrink_1280_1280/0/1691180828512?e=1692381600&v=beta&t=mM5Y_NE5EPlQhez5FAN6NLVSKcO_Ojt_9Gq3mnFGkAQ",
     },
     
