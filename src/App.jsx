@@ -1,6 +1,6 @@
 import React from 'react';
 import styled, { ThemeProvider } from 'styled-components';
-import { BrowserRouter as Router, Link } from 'react-router-dom'; // Added Link import
+import { BrowserRouter as Router, Link } from 'react-router-dom'; 
 import './App.css';
 import { darkTheme } from './utils/Theme';
 import Navbar from './components/Navbar/Navbar';
@@ -8,6 +8,7 @@ import Hero from './components/HeroSection/Hero';
 import Skills from './components/Skills/Skills';
 import Education from './components/Education/Education';
 import Experience from './Experience/Experience';
+import Projects from './Projects/Projects';
 
 const Body = styled.div`
   background-color: ${({ theme }) => theme.bg};
@@ -30,6 +31,24 @@ const Wrapper = styled.div`
   width: 100%;
   clip-path: polygon(0 0, 100% 0, 100% 100%, 30% 98%, 0 100%);
 `;
+export const ToggleButton = styled.div`
+    padding: 8px 18px;
+    border-radius: 6px;
+    cursor: pointer;
+    ${({ active, theme }) =>
+        active && `
+    background: ${theme.primary + 20};
+    `
+    }
+    &:hover {
+        background: ${({ theme }) => theme.primary + 8};
+    }
+    @media (max-width: 768px) {
+        padding: 6px 8px;
+        border-radius: 4px;
+    }
+`
+
 
 function App() {
   return (
@@ -41,8 +60,12 @@ function App() {
           <Wrapper>
             <Skills />
             <Experience />
-            <Education />
+          
           </Wrapper>
+          <Projects/>
+            <Wrapper>
+              <Education />
+            </Wrapper>
         </Body>
       </Router>
     </ThemeProvider>

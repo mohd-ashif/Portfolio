@@ -197,24 +197,23 @@ export const Bio = {
   export const projects = [
     {
       id: 9,
-      title: "Movie App Front-end",
+      title: "Movie App ",
       
       description:
-        "Experience the magic of cinema with my portfolio project – a dynamic movie app that seamlessly integrates real-time updates using Axios, ensuring the latest releases and information are at your fingertips. Explore a vast movie library effortlessly with intuitive filters and a powerful search feature tailored to match your unique preferences. Built on a robust tech stack including React, Bootstrap, Axios, Jest, React Router, and React Icons, this visually stunning and fast application promises a reliable cinematic journey",
+        "a dynamic movie app that seamlessly integrates real-time updates using Axios, ensuring the latest releases and information are at your fingertips. Explore a vast movie library effortlessly with intuitive filters and a powerful search feature tailored to match your unique preferences. Built on a robust tech stack including React, Bootstrap, Axios, Jest, React Router, and React Icons, this visually stunning and fast application promises a reliable cinematic journey",
       image:
         "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTolGIsDETMxAJ_aObOO7N0J3pvx2sRTsu5Eg&usqp=CAU",
         tags: [
             'Dynamic API Integration',
-            'Real-time Updates',
             'Intuitive Filters',
-            'Powerful Search',
+            
             'React',
             'Bootstrap',
             'Axios',
             'Jest',
             'React Router',
             'React Icons',
-            'Cinematic Journey',
+            
           ],
           
       category: "web app",
@@ -223,7 +222,7 @@ export const Bio = {
     },
     {
       id: 0,
-      title: "Netflix Clone - Front-end",
+      title: "Netflix Clone ",
       
       description:
         "Built a stunning Netflix clone using React, featuring a sleek and responsive design. Leveraged popular libraries such as React Slick and React YouTube for seamless carousel navigation and dynamic video playback. Integrated Axios for efficient data fetching and utilized the latest React version (18.2.0) for enhanced performance. The project also incorporates testing with the @testing-library suite to ensure robust functionality. Explore a user-friendly Netflix experience right in your browser, showcasing technical prowess in React development.",
@@ -238,7 +237,7 @@ export const Bio = {
     },
     {
       id: 1,
-      title: "IMDB Clone - Front-end",
+      title: "IMDB Clone ",
      
       description:
         "Explore the magic of movie databases with my IMDb UI Clone, built using React. This project showcases my proficiency in modern web development, utilizing technologies like React, React Router, and external libraries such as Font Awesome for engaging and responsive user interfaces. With features like seamless navigation, dynamic content loading, and a visually appealing design, this IMDb UI Clone demonstrates my skills in creating interactive and user-friendly applications. Dive into the world of cinema with this immersive React-based project, offering a glimpse into my passion for web development and attention to detail.",
@@ -246,30 +245,74 @@ export const Bio = {
         "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSXcCNJeF5QiLifhff7TAH8T_ANcTAS059YaQ&usqp=CAU",
         "tags": [
             "React",
-            "Web Development",
-            "UI Clone",
             "Responsive Design",
             "React Router",
             "Font Awesome",
             "React Loading Skeleton",
             "Carousel",
             "Movie Database",
-            "Interactive UI",
-            "Web Vitals",
-            "IMDb Clone"
+            
         ],
         
       category: "web app",
       github: "https://github.com/mohd-ashif/IMDB-clone",
       webapp: "https://653cb4b52de572550fe6eea6--glittering-melba-005526.netlify.app/",
     },
+    {
+      id: 2,
+      title: "Shop Web site ",
+     
+      description:
+        "Explore a seamless Real estate building and house on our website, where quality meets convenience. With user-friendly design and dynamic features powered by HTML, CSS, and JS,",
+      image:
+        "https://assets.materialup.com/uploads/9d3296bc-192a-4430-9a5e-1184fe4a8e19/preview.png",
+        "tags": [
+            "Html",
+            "css",
+            "Responsive Design",
+           
+        ],
+        
+      category: "web app",
+      github: "https://github.com/mohd-ashif/shop.wesite",
+      webapp: "https://responsive-website-shop.netlify.app/",
+    },
+    {
+      id: 3,
+      title: "Keeper App ",
+     
+      description:
+        "Keeper, a powerful note-taking app crafted with React. Simplify your life by organizing all your thoughts, ideas, and important information in one place",
+      image:
+        "https://screenshots.codesandbox.io/3bhzs/1.png",
+        "tags": [
+            "React",
+            "Responsive Design",
+            "Font Awesome",
+        ],
+        
+      category: "web app",
+      github: "https://github.com/mohd-ashif/Keeper-app",
+      webapp: "https://653cb4b52de572550fe6eea6--glittering-melba-005526.netlify.app/",
+    },
+    {
+      id: 4,
+      title: "Todo App ",
+     
+      description:
+        " React-based ToDo app – a simple and intuitive task manager designed to enhance your productivity. Stay organized, manage your daily tasks effortlessly, and enjoy a streamlined user experience",
+      image:
+        "https://img.freepik.com/premium-vector/list-icon-with-hand-drawn-text-checklist-task-list-vector-illustration-flat-style-white-background_157943-819.jpg",
+        "tags": [
+            "React",
+            "Responsive Design",
+            "Font Awesome",
+        ],
+        
+      category: "web app",
+      github: "https://github.com/mohd-ashif/React-Todo-app",
+      webapp: "https://6511cec491ce17059b8e3b52--stellular-profiterole-adaad0.netlify.app/",
+    },
    
   ];
   
-//   export const TimeLineData = [
-//     { year: 2017, text: "Started my journey" },
-//     { year: 2018, text: "Worked as a freelance developer" },
-//     { year: 2019, text: "Founded JavaScript Mastery" },
-//     { year: 2020, text: "Shared my projects with the world" },
-//     { year: 2021, text: "Started my own platform" },
-//   ];
