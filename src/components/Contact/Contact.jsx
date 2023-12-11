@@ -15,6 +15,7 @@ const Container = styled.div`
   }
 `;
 
+
 const Wrapper = styled.div`
   position: relative;
   display: flex;
@@ -29,6 +30,7 @@ const Wrapper = styled.div`
     flex-direction: column;
   }
 `;
+
 
 const Title = styled.div`
   font-size: 42px;
@@ -133,7 +135,7 @@ const Contact = () => {
         <Title>Contact</Title>
         <Desc>Feel free to reach out to me for any questions </Desc>
         <ContactForm ref={form}>
-          <ContactTitle>Email Me 🚀</ContactTitle>
+          <ContactTitle>Email Me </ContactTitle>
           <ContactInput placeholder="Your Email" name="from_email" />
           <ContactInput placeholder="Your Name" name="from_name" />
           <ContactInput placeholder="Subject" name="subject" />
