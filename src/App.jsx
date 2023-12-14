@@ -58,7 +58,7 @@ function App() {
       <Router>
         <Navbar />
         <Body>
-          <Hero />
+          <Hero  />
           <Wrapper>
             <Skills />
             <Experience />
