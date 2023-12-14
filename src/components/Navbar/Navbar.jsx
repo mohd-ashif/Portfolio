@@ -92,6 +92,7 @@ const NavLink = styled.a`
   }
 `;
 
+
 const GitHubButton = styled.a`
   border: 1.8px solid ${({ theme }) => theme.primary};
   justify-content: center;
@@ -118,7 +119,6 @@ const GitHubButton = styled.a`
     font-size: 14px;
   }
 `;
-
 const Span = styled.div`
   padding: 0 4px;
   font-weight: bold;
@@ -186,7 +186,7 @@ const Navbar = () => {
         </NavItems>
 
         <ButtonContainer>
-          <GitHubButton href="#">Github Profile</GitHubButton>
+        <GitHubButton href="https://github.com/mohd-ashif" target="_blank">Github Profile</GitHubButton>
         </ButtonContainer>
 
         {open && (
@@ -196,7 +196,7 @@ const Navbar = () => {
             <MobileMenuLink href="#experience" onClick={() => setOpen(!open)}>Experience</MobileMenuLink>
             <MobileMenuLink href="#projects" onClick={() => setOpen(!open)}>Projects</MobileMenuLink>
             <MobileMenuLink href="#education" onClick={() => setOpen(!open)}>Education</MobileMenuLink>
-            <GitHubButton style={{ padding: '10px 16px', background: `${theme.primary}`, color: 'white', width: 'max-content' }} href="" target="_blank">Github Profile</GitHubButton>
+            <GitHubButton href="https://github.com/mohd-ashif" target="_blank">Github Profile</GitHubButton>
           </MobileMenu>
         )}
       </NavContainer>
