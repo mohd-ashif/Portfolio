@@ -15,6 +15,9 @@ export const Bio = {
     linkedin: "https://www.linkedin.com/in/muhammed-ashif-ke/",
     twitter: "https://twitter.com/MohdAshifred",
     insta: "https://www.instagram.com/aa6.if/?utm_source=qr&igshid=ZDc4ODBmNjlmNQ%3D%3D",
+    // hackerrank :"https://www.hackerrank.com/profile/mohdaszif077",
+    // leetcode :"https://leetcode.com/ashif7/",
+
     
    
   };

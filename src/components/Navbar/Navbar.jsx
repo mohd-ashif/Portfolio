@@ -16,7 +16,7 @@ const MobileIcon = styled.div`
   /* Add more styles as needed */
 `;
 
-// Rest of the code...
+
 
 
 const ButtonContainer = styled.div`
@@ -196,7 +196,7 @@ const Navbar = () => {
             <MobileMenuLink href="#experience" onClick={() => setOpen(!open)}>Experience</MobileMenuLink>
             <MobileMenuLink href="#projects" onClick={() => setOpen(!open)}>Projects</MobileMenuLink>
             <MobileMenuLink href="#education" onClick={() => setOpen(!open)}>Education</MobileMenuLink>
-            <GitHubButton style={{ padding: '10px 16px', background: `${theme.primary}`, color: 'white', width: 'max-content' }} href="/" target="_blank">Github Profile</GitHubButton>
+            <GitHubButton style={{ padding: '10px 16px', background: `${theme.primary}`, color: 'white', width: 'max-content' }} href="" target="_blank">Github Profile</GitHubButton>
           </MobileMenu>
         )}
       </NavContainer>
