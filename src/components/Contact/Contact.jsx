@@ -136,9 +136,9 @@ const Contact = () => {
         <Desc>Feel free to reach out to me for any questions </Desc>
         <ContactForm ref={form}>
           <ContactTitle>Email Me </ContactTitle>
-          <ContactInput placeholder="Your Email" name="from_email" />
-          <ContactInput placeholder="Your Name" name="from_name" />
-          <ContactInput placeholder="Subject" name="subject" />
+          <ContactInput placeholder="Your Email" required name="from_email" />
+          <ContactInput placeholder="Your Name" required name="from_name" />
+          <ContactInput placeholder="Subject" required name="subject" />
           <ContactInputMessage placeholder="Message" rows="4" name="message" />
           <ContactButton type="button" onClick={handleSubmit} value="Send" />
         </ContactForm>
