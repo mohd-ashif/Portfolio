@@ -154,7 +154,7 @@ export const Bio = {
         "CSS",
         "JavaScript",
       ],
-      doc: "https://media.licdn.com/dms/image/D4D2DAQFlp60ZqHuaFQ/profile-treasury-image-shrink_1280_1280/0/1691180828512?e=1692381600&v=beta&t=mM5Y_NE5EPlQhez5FAN6NLVSKcO_Ojt_9Gq3mnFGkAQ",
+      doc: "",
     },
     
    

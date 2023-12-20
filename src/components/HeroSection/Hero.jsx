@@ -238,7 +238,7 @@ export const ResumeButton = styled.a`
             <SubTitle>{Bio.description}</SubTitle>
             <ResumeButton href={Bio.resume} target="display">Check Resume</ResumeButton>
           </HeroLeftContainer>
-          <HeroRightContainer>
+          <HeroRightContainer>  
             <Img src={HeroImg} alt="Hero" />
           </HeroRightContainer>
         </HeroInnerContainer>
