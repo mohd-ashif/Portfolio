@@ -98,7 +98,6 @@ function Footer() {
           <SocialMediaIcon href={Bio.linkedin} target="_blank"><LinkedInIcon /></SocialMediaIcon>
           <SocialMediaIcon href={Bio.insta} target="_blank"><InstagramIcon /></SocialMediaIcon>
           
-          
         </SocialMediaIcons>
         <Copyright>
           &copy; 2023 Muhammed Ashif. All rights reserved.
