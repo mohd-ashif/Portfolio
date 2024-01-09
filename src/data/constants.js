@@ -11,7 +11,7 @@ export const Bio = {
     ,
     github: "https://www.linkedin.com/in/muhammed-ashif-ke/",
     resume:
-      "https://drive.google.com/file/d/1XzT469l7pMmyK6E-dQxyoGSQ9VmsaBwC/view",
+      "https://drive.google.com/drive/u/0/home",
     linkedin: "https://www.linkedin.com/in/muhammed-ashif-ke/",
     twitter: "https://twitter.com/MohdAshifred",
     insta: "https://www.instagram.com/aa6.if/?utm_source=qr&igshid=ZDc4ODBmNjlmNQ%3D%3D",
